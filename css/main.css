@@ -1,0 +1,106 @@
+*{
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+body{
+    margin: 0 250px 0 35px;
+}
+
+h1>a{
+    color: red;
+    text-decoration: none;
+    font-size: 48px;
+}
+
+h2{
+    font-weight: 400;
+}
+
+.toplocations a{
+    color: lightgray;
+    font-size: 21px;
+    font-weight: 300;
+    padding: 6px;
+    text-underline-offset: 0.3em;
+}
+
+header{
+    margin: 0 0 60px 0;
+}
+
+article img{
+    max-height: 300px;
+    object-fit: cover;
+    width: 100%;
+}
+
+article h3{
+    color: lightgray;
+    font-size: 33px;
+    font-weight: 300;
+    margin: 0 0 -15px 0;
+}
+
+h2>a{
+    font-size: 35px;
+    display: block;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+}
+
+article>p::first-letter{
+    color: lightgray;
+    text-transform: capitalize;
+    font-size: 100px;
+    float: left;
+    line-height: 1;
+    padding: 0;
+    margin: -5px 5px -5px -5px;
+    
+    
+}
+
+article p{
+    color: black;
+    font-size: 15px;
+    line-height: 1.5; 
+    font-weight: 300;
+  
+}
+
+h4 a{
+    text-decoration: none;
+    color: red;
+    font-size: 16px;
+    font-weight: 700;
+    clear: left;
+}
+
+h4{
+    text-align: right;
+}
+
+article{
+    border-bottom: 1px solid lightgray;
+    margin: 0 0 40px 0;
+}
+
+.bottomlocations a{
+    text-decoration: none;
+    color: red;
+    padding: 0 3px 0 3px;
+    font-size: 16.5px;
+    font-weight: 400;
+}
+
+nav span{
+    color: lightgray;
+}
+
+p{
+    color: lightgray;
+    font-size: 17px;
+}
